@@ -1,6 +1,6 @@
 @extends('masterlayout')
 @section('content')
-    <div class="container-xl mt-4">
+    <div class="container-xl mt-4 pt-4">
         <div class="row">
             <div class="col-lg-6 d-flex align-items-center mb-4 mb-lg-0">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ratione mollitia molestias placeat saepe nemo tempora sit neque quo totam magni, dolor consequuntur similique optio!
@@ -14,23 +14,23 @@
                 <div class="carousel slide mb-4" id="carouselExampleSlidesOnly" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="2500">
-                            <img class="d-block w-100" src="{{ asset('img/smallest-dog-breeds-toy-poodle.webp') }}" alt="...">
+                            <img class="d-block rounded-4" src="{{ asset('img/smallest-dog-breeds-toy-poodle.jpg') }}" alt="labradoodle" style="min-height: 500px; min-width: 100%; object-fit: cover;">
                         </div>
                         <div class="carousel-item" data-bs-interval="2500">
-                            <img class="d-block w-100" src="{{ asset('img/orangecat.jpg') }}" alt="...">
+                            <img class="d-block rounded-4" src="{{ asset('img/orangecat.jpg') }}" alt="orangecat" style="max-height: 500px; min-width: 100%; object-fit: cover;">
                         </div>
                         <div class="carousel-item" data-bs-interval="2500">
-                            <img class="d-block w-100" src="{{ asset('img/brownishcat.webp') }}" alt="...">
+                            <img class="d-block rounded-4" src="{{ asset('img/brownishcat.webp') }}" alt="brownishcat" style="max-height: 500px; min-width: 100%; object-fit: cover;">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
             <div class="col">
                 <div class="card h-100">
-                    <img class="card-img-top" src="..." alt="...">
+                    <img class="card-img-top" src="{{ asset('img/smallest-dog-breeds-toy-poodle.webp') }}" alt="labradoodle">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -39,7 +39,7 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img class="card-img-top" src="..." alt="...">
+                    <img class="card-img-top" src="{{ asset('img/orangecat.jpg') }}" alt="orangecat">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -48,7 +48,7 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img class="card-img-top" src="..." alt="...">
+                    <img class="card-img-top" src="{{ asset('img/brownishcat.webp') }}" alt="brownishcat">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal
