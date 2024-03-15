@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg fixed-top border-end" style="background-color: var(--white); border-bottom: 1px solid #ECECEC;">
+<nav class="navbar navbar-expand-lg fixed-top border-end" style="background-color: var(--white); border-bottom: 1px solid #ebebeb;">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
             <img src="{{ asset('img/PawLogo.png') }}" alt="Paw" height="24" width="30">

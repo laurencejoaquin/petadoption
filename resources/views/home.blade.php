@@ -3,6 +3,7 @@
     <div class="container-xl mt-4 pt-4 mb-5">
         <div class="row d-flex align-items-center mb-4 mb-lg-0">
             <div class="col-lg-6">
+                <h1>Lorem ipsum dolor sit amet.</h1>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ratione mollitia molestias placeat saepe nemo tempora sit neque quo totam magni, dolor consequuntur similique optio!
                 Aliquid, temporibus. Itaque eveniet nostrum quae, enim ipsa sit laboriosam sapiente voluptatibus, iure nemo soluta quam a quasi earum non porro sed commodi dicta facere atque, corrupti
                 reiciendis accusamus optio pariatur! Illum magni dolorum, quis suscipit fuga repudiandae officia veniam, dolores
