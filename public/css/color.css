@@ -18,3 +18,18 @@
     background-color: var(--brown);
     border-color: var(--brown);
 }
+
+.cardvonton{
+    color: var(--coffee);
+    border: 1px solid var(--coffee);
+    border-radius: 0.375rem;
+    background-color: transparent;
+    padding-top: 5px;
+    align-self: self-end;
+}
+
+.cardvonton:hover{
+    color: var(--white);
+    background-color: var(--coffee);
+    border-color: var(--coffee);
+}
