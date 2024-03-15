@@ -11,16 +11,16 @@
             </div>
             <div class="col-lg-6">
                 {{-- <img class="rounded" src="{{ asset('img/smallest-dog-breeds-toy-poodle.webp') }}" alt="doggo" style="width: 100%;"> --}}
-                <div class="carousel slide mb-4" id="carouselExampleSlidesOnly" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="2500">
-                            <img class="d-block rounded-4" src="{{ asset('img/smallest-dog-breeds-toy-poodle.jpg') }}" alt="labradoodle" style="min-height: 500px; min-width: 100%; object-fit: cover;">
+                <div class="carousel slide mb-4 w-100" id="carouselExampleSlidesOnly" data-bs-ride="carousel">
+                    <div class="carousel-inner rounded-4" style="max-height: 400px">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img class="d-block w-100" src="{{ asset('img/smallest-dog-breeds-toy-poodle.jpg') }}" alt="labradoodle" style="object-fit: cover;">
                         </div>
-                        <div class="carousel-item" data-bs-interval="2500">
-                            <img class="d-block rounded-4" src="{{ asset('img/orangecat.jpg') }}" alt="orangecat" style="max-height: 500px; min-width: 100%; object-fit: cover;">
+                        <div class="carousel-item " data-bs-interval="2000">
+                            <img class="d-block w-100" src="{{ asset('img/orangecat.jpg') }}" alt="orangecat" style="object-fit: cover;">
                         </div>
-                        <div class="carousel-item" data-bs-interval="2500">
-                            <img class="d-block rounded-4" src="{{ asset('img/brownishcat.webp') }}" alt="brownishcat" style="max-height: 500px; min-width: 100%; object-fit: cover;">
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img class="d-block w-100" src="{{ asset('img/brownishcat.webp') }}" alt="brownishcat" style="object-fit: cover;">
                         </div>
                     </div>
                 </div>
