@@ -1,8 +1,10 @@
 <nav class="navbar navbar-expand-lg fixed-top border-end" style="background-color: var(--white); border-bottom: 1px solid #ebebeb;">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img src="{{ asset('img/PawLogoBeige.png') }}" alt="Paw" height="24" width="30">
-            Paw Buddies
+            <img class="main-logo" src="{{ asset('img/PawLogoBeige.png') }}" alt="Paw" height="40" width="40">
+            <span class="gochi-hand-regular" style="font-size: 25px;">
+                Paw Buddies
+            </span>
         </a>
         <button class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
             <span class="navbar-toggler-icon"></span>

@@ -1,27 +1,29 @@
-:root{
-    --brown: #6C3428;
-    --coffee: #BA704F;
-    --lightblue: #CEE6F3;
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Pacifico&display=swap");
+
+:root {
+    --brown: #6c3428;
+    --coffee: #ba704f;
+    --lightblue: #cee6f3;
     --white: #ffffff;
-    --beige: #DFA878;
-    --khaki: #ECBB91;
-    --gambia:#E99954;
+    --beige: #dfa878;
+    --khaki: #ecbb91;
+    --gambia: #e99954;
 }
 
-.vonton{
+.vonton {
     color: var(--beige);
     border: 1px solid var(--beige);
     border-radius: 0.375rem;
     background-color: transparent;
 }
 
-.vonton:hover{
+.vonton:hover {
     color: var(--white);
     background-color: var(--beige);
     border-color: var(--beige);
 }
 
-.cardvonton{
+.cardvonton {
     color: var(--coffee);
     border: 1px solid var(--coffee);
     border-radius: 0.375rem;
@@ -30,8 +32,30 @@
     align-self: self-end;
 }
 
-.cardvonton:hover{
+.cardvonton:hover {
     color: var(--white);
     background-color: var(--coffee);
     border-color: var(--coffee);
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gochi-hand-regular {
+    font-family: "Gochi Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-logo {
+    transform: rotate(20deg);
+    margin-right: 6px;
+    transition: all ease-in-out 300ms;
+}
+
+.main-logo:hover {
+    transform: rotate(0deg);
 }

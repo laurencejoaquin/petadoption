@@ -28,7 +28,7 @@
             </div>
         </div>
     </div>
-    <div class="py-5" style="background-color: var(--coffee)">
+    <div class="py-5" style="background-color: var(--khaki)">
         <div class="container-xl">
             <div class="row row-cols-1 row-cols-md-3 gx-4">
                 <div class="col">
