@@ -27,37 +27,37 @@
             </div>
         </div>
     </div>
-    <div style="background-color: var(--coffee)">
-        <div class="container-xl mt-4">
-            <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+    <div class="py-5" style="background-color: var(--coffee)">
+        <div class="container-xl">
+            <div class="row row-cols-1 row-cols-md-3 gx-4">
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card">
                         <img class="card-img-top" src="{{ asset('img/smallest-dog-breeds-toy-poodle.webp') }}" alt="poodle">
                         <div class="card-body">
                             <h5 class="card-title">Cooper</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <a class="btn cardvonton" href="#">Go somewhere</a>
+                            {{-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> --}}
+                            {{-- <a class="btn cardvonton" href="#">Go somewhere</a> --}}
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card">
                         <img class="card-img-top" src="{{ asset('img/orangecat.jpg') }}" alt="orangecat">
                         <div class="card-body">
                             <h5 class="card-title">Leo</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <a class="btn btn-primary" href="#">Go somewhere</a>
+                            {{-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p> --}}
+                            {{-- <a class="btn btn-primary" href="#">Go somewhere</a> --}}
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card">
                         <img class="card-img-top" src="{{ asset('img/brownishcat.webp') }}" alt="brownishcat">
                         <div class="card-body">
                             <h5 class="card-title">Luna</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal
-                                height action.</p>
-                            <a class="btn btn-primary" href="#">Go somewhere</a>
+                            {{-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal --}}
+                            {{-- height action.</p> --}}
+                            {{-- <a class="btn btn-primary" href="#">Go somewhere</a> --}}
                         </div>
                     </div>
                 </div>
