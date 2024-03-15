@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top border-end" style="background-color: var(--white); border-bottom: 1px solid #ebebeb;">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img src="{{ asset('img/PawLogo.png') }}" alt="Paw" height="24" width="30">
+            <img src="{{ asset('img/PawLogoBeige.png') }}" alt="Paw" height="24" width="30">
             Paw Buddies
         </a>
         <button class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
