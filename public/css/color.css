@@ -8,6 +8,8 @@
     --beige: #dfa878;
     --khaki: #ecbb91;
     --gambia: #e99954;
+
+    --card-border-width: 0px;
 }
 
 .vonton {
@@ -23,7 +25,33 @@
     border-color: var(--beige);
 }
 
-.cardvonton {
+.adopt-modal{
+    color: var(--gambia);
+    border: 1px solid var(--gambia);
+    border-radius: 0.375rem;
+    background-color: transparent;
+}
+
+.adopt-modal:hover {
+    color: var(--white);
+    background-color: var(--gambia);
+    border-color: var(--gambia);
+}
+
+.close-modal{
+    color:var(--coffee);
+    border: 1px solid var(--coffee);
+    border-radius: 0.375rem;
+    background-color: transparent;
+}
+
+.close-modal:hover {
+    color: var(--white);
+    background-color: var(--coffee);
+    border-color: var(--coffee);
+}
+
+/* .cardvonton {
     color: var(--coffee);
     border: 1px solid var(--coffee);
     border-radius: 0.375rem;
@@ -36,7 +64,7 @@
     color: var(--white);
     background-color: var(--coffee);
     border-color: var(--coffee);
-}
+} */
 
 .pacifico-regular {
     font-family: "Pacifico", cursive;
@@ -58,4 +86,12 @@
 
 .main-logo:hover {
     transform: rotate(0deg);
+}
+
+.our-name {
+    text-align: center;
+}
+
+.von-card{
+    border: 0px;
 }
