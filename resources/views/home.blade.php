@@ -3,7 +3,7 @@
     <div class="container-xl mt-4 pt-4 mb-5">
         <div class="row d-flex align-items-center mb-4 mb-lg-0">
             <div class="col-lg-6">
-                <h1>Find your Forever Friend</h1>
+                <h1 class="pacifico-regular">Find Your Forever Friend</h1>
 
                 Welcome to Paw Buddies, where we connect hearts and homes with furry, or feathery friend! We are a dedicated individual pet lovers committed in helping you to find the perfect companion who will steal your
                 heart and enrich your life. Whether you're searching for a loyal canine companion or a cuddly feline friend, we have a wide range of animals eagerly waiting to meet you. Each one comes with a unique story and
@@ -29,8 +29,8 @@
     </div>
     <div class="py-5" style="background-color: var(--khaki)">
         <div class="container-xl">
-            <h1 class="our-name">
-                vonvonvon
+            <h1 class="our-name pacifico-regular pb-4">
+                Get to know more about them!
             </h1>
             <div class="row row-cols-1 row-cols-md-3 gx-4">
                 <div class="col">
@@ -68,7 +68,7 @@
     </div>
     {{-- Cooper Modal --}}
     <div class="modal" id="coopermodal" tabindex="-1">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Cooper</h5>
@@ -95,7 +95,7 @@
     </div>
     {{-- Leo Modal --}}
     <div class="modal" id="leomodal" tabindex="-1">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Cooper</h5>
@@ -121,7 +121,7 @@
     </div>
     {{-- Tom Modal --}}
     <div class="modal" id="tommodal" tabindex="-1">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Cooper</h5>
