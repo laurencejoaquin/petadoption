@@ -22,6 +22,9 @@
                         <div class="carousel-item" data-bs-interval="2000">
                             <img class="d-block w-100" src="{{ asset('img/shihtzu.webp') }}" alt="tom" style="object-fit: cover;">
                         </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img class="d-block w-100" src="{{ asset('img/Japanese-spitz-puppy1.webp') }}" alt="tom" style="object-fit: cover;">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -128,7 +131,8 @@
                     <button class="btn-close" data-bs-dismiss="modal" type="button" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p><b>Meet Tom!</b>
+                    <p>
+                        <b>Meet Tom!</b>
                         <br><b>Breed:</b> Shih Tzu
                         <br><b>Age:</b> 4 years
                         <br><b>Size:</b> Small
