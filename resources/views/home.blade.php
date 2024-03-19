@@ -33,7 +33,7 @@
     <div class="py-5" style="background-color: var(--khaki)">
         <div class="container-xl">
             <h1 class="our-name pacifico-regular pb-4">
-                Get to know more about them!
+                Get to know more about some of them!
             </h1>
             <div class="row row-cols-1 row-cols-md-3 gx-4">
                 <div class="col">
