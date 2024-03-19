@@ -5,9 +5,9 @@
             <div class="col-lg-6">
                 <h1 class="pacifico-regular">Find Your Forever Friend</h1>
 
-                Welcome to Paw Buddies, where we connect hearts and homes with furry, or feathery friend! We are a dedicated individual pet lovers committed in helping you to find the perfect companion who will steal your
-                heart and enrich your life. Whether you're searching for a loyal canine companion or a cuddly feline friend, we have a wide range of animals eagerly waiting to meet you. Each one comes with a unique story and
-                a desire to find a loving home. Join us in making a difference by adopting a pet in need. <br>Start your journey to finding your forever friend today with Paw Buddies Pet Adoption!
+                Welcome to Paw Buddies, where we connect hearts and homes with furry or feathery friends! Our dedicated team is committed to helping you find the perfect companion who will enrich your life. Whether you're
+                searching for a loyal canine or a cuddly feline, we have a wide range of pets ready to meet you. Each one comes with a unique story and a desire to find a loving home. Join us in making a difference by
+                adopting a pet in need. <br>Start your journey to finding your forever friend today with Paw Buddies Pet Adoption!
             </div>
             <div class="col-lg-6">
                 {{-- <img class="rounded" src="{{ asset('img/smallest-dog-breeds-toy-poodle.webp') }}" alt="doggo" style="width: 100%;"> --}}

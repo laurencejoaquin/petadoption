@@ -11,17 +11,23 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link active" href="#" aria-current="page">Home</a>
-                </li>
+                </li> --}}
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#"></a>
                 </li>
             </ul>
             <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" aria-label="Search" placeholder="Search">
-                <button class="btn vonton" type="submit">Search</button>
+                {{-- <button class="btn vonton" type="submit">Login</button> --}}
+                {{-- <a class="btn" data-bs-toggle="button" href="#" role="button">Login</a> --}}
+                <button class="btn von-login" type="button">Log In</button>
+                {{-- <button class="btn btn-link" type="button">Log In</button> --}}
             </form>
+            <form class="d-flex ms-1" role="search">
+                <button class="btn von-signup" type="submit">Sign Up</button>
+            </form>
+
         </div>
     </div>
 </nav>

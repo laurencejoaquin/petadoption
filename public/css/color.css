@@ -6,13 +6,35 @@
     --coffee: #ba704f;
     --lightblue: #cee6f3;
     --white: #ffffff;
-    --beige: #dfa878;
+    --beige:#DFA777;
     --khaki: #ecbb91;
     --gambia: #e99954;
 
-    --card-border-width: 0px;
+    /* --card-border-width: 0px; */
 }
 
+/* Navbar */
+
+.von-login {
+    border: 0px solid;
+    border-radius: 0rem;
+    background-color: transparent;
+}
+
+.von-signup {
+    color: var(--beige);
+    border: 1px solid var(--beige);
+    border-radius: 0.375rem;
+    background-color: transparent;
+}
+
+.von-signup:hover {
+    color: var(--white);
+    background-color: var(--beige);
+    border-color: var(--beige);
+}
+
+/* Hero */
 .vonton {
     color: var(--beige);
     border: 1px solid var(--beige);
