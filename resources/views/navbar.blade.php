@@ -22,12 +22,13 @@
                     <a class="nav-link active" href="#" aria-current="page">Contact Us</a>
                 </li>
                 <!-- Add more navigation items here -->
-                <li class="nav-item d-lg-none">
-                    <div class="row gx-2">
-                        <div class="col">
+                <hr>
+                <li class="nav-item d-lg-none mb-2">
+                    <div class="d-flex">
+                        <div>
                             <button class="btn von-login d-block" type="button">Log In</button>
                         </div>
-                        <div class="col">
+                        <div>
                             <button class="btn von-signup d-block" type="submit">Sign Up</button>
                         </div>
                     </div>
