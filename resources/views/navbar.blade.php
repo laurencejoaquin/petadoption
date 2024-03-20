@@ -14,6 +14,13 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="#" aria-current="page">Home</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" aria-current="page">Our Animals</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" aria-current="page">Contact Us</a>
+                </li>
                 <!-- Add more navigation items here -->
                 <li class="nav-item d-lg-none">
                     <div class="row gx-2">
